@@ -140,7 +140,7 @@ def mensagem_abertura():
     print('*********************************')
 
 def carrega_palavra_secreta():   
-        arquivo = open(r'/home/lucas/Documentos/Laboratorio/VScode/Python/Jogos/palavras.txt', 'r')
+        arquivo = open(r'/home/user/Documentos/Python/palavras.txt', 'r')
         palavras = []
         
         for linha in arquivo:
